@@ -2,8 +2,8 @@
 
 unsigned int i,j,k,s;
 
-  unsigned int seg[] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,				//Hex code of hxadecimal numbers.
-												0x7f,0x6f};
+  unsigned int seg[] = {0x3f,0x06,0x5b,0x4f,0x66,0x6d,0x7d,0x07,	//Hex code of hxadecimal numbers.
+			0x7f,0x6f};
 
   void delay(unsigned int x){			// creating a delay function.
   		  unsigned int m;
@@ -11,7 +11,7 @@ unsigned int i,j,k,s;
 	}
 
   int main(){
-	   while(1){									//Start a infinite loop.
+	   while(1){				//Start a infinite loop.
 	for(k=0;k<10;k++){		   	
 		for(j=0;j<10;j++){	
 			for(i=0;i<10;i++){
